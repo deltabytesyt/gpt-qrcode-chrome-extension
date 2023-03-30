@@ -1,0 +1,17 @@
+body {
+  width: 200px;
+  height: 200px;
+}
+
+#qr-container {
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+#generate-button {
+  display: block;
+  margin: 10px auto;
+}

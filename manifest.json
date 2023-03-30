@@ -1,0 +1,23 @@
+{
+  "name": "GPT-QRCode Generator",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A simple QR Code Generator Chrome Extension",
+  "homepage_url": "https://www.youtube.com/@deltabytes?sub_confirmation=1",
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "browser_action": {
+    "default_title": "QR Code Generator",
+    "default_popup": "popup.html",
+    "default_icon" : "assets/icon.png"
+  },
+  
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["redirect.js"],
+    "persistent": false
+  }
+}
