@@ -1,1 +1,1 @@
-# gpt-qrcode-chrome-extension
+# A simple QR Code Generator Chrome Extension
